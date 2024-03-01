@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dineease.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dineease.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 pt-5" id="HeroSection">
+                <h1><b>DineEase: Exception</b></h1>
+                <h1><b>Dining Awaits</b></h1>
+                <p>Dive into culinary wonders with DineEase. We curete top-rated restaurant, each with distinct lavors and ambiance. From international dishes to traditional delights and gastronic adventure, find your perect spot with DineEase.</p>
+                <div class="search-container">
+                    <button class="search-button">
+                        <img src="images/Search Icon.png" alt="">Explore Restaurants
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                
+                <img src="images/DineEase.png" xmlns="picture/images/Hero Illustration.png" class="custom-image" id="HeroSection">
+            </div>
+        </div>
+    </div>
+    <h1 class="section-title"><b>Featured Restaurants</b></h1>
+    <p class="section-title">Dicover Unforgettable Dining Destinations</p> 
+    <div id="restaurants-list"></div>  
+    <div class="container" id="card"> 
+        <div class="row">
+            <div class="col-6">
+                <h1><b>Delightful</b></h1>
+                <h1><b>Experiences Shared</b></h1>
+                <h1><b>by Our Guests</b></h1>                
+                <div class="card" id="velemeny">
+                    <img src="images/Quote mark.png" id="quotemark">
+                    <p class="card-text">With DineEase, we've unconvered culinary treasures right in our city. Every dining recommendation feels like an exclusive invitation to a world of flavors. We thougth we knew our local dining scene, but DineEase introduced us to so much more.</p>
+                    <b>Emma & Jacob </b>
+                </div>
+            </div>      
+            <div class="col-6">
+                <div class="card" id="velemeny">
+                    <img src="images/Quote mark.png" id="quotemark">
+                    <div class="card-body">
+                        <p class="card-text">Exquisite flavors, impeccable service, adn a memorable ambiance - DineEase made our celebration truly special</p>
+                        <b>Robert & Emily</b>
+                    </div>
+                </div>
+                <div class="card" id="velemeny">
+                    <img src="images/Quote mark.png" id="quotemark">
+                    <div class="card-body">
+                        <p class="card-text">DineEase guided us to hidden gems we never knew existed! We've become food adventureres, thanks to this platform.</p>
+                        <b>Lisa & Mark</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="section-title"><b>Find Your Perfect Dining Spot</b></h1>
+        <p class="section-title">Searcg by Cuisine, Location, or Name</p>
+        <div class="wrap" id="alsosearchwrap">
+            <div class="search" id="alsosearch">
+               <input type="text" class="searchTerm" id="alsosearchterm">
+               <button type="submit" class="searchButton" id="alsosearchbutton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+    </div>
+    <div></div>
+    <footer class="container-fluid bg-dark text-white">
+        <div class="container d-flex justify-content-between row mx-auto py-5">
+            <div class="col-6">
+                <img src="images/logomark.png" alt="Logomark">
+                <p>Privacy Policy</p>
+                <p>+36 30 123 4567 support@dineease.com</p>
+                <p>&COPY; 2024 - All rights reserved</p>
+            </div>
+            <div class="col-4"><p>Follow Us</p>
+                <p>
+                    <img src="images/Instagram Icon.png" alt="Instagram">
+                    <img src="images/Facebook Icon.png" alt="Facebook">
+                    <img src="images/Twitter Icon.png" alt="Twitter">
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="dineease.js"></script>
+</body>
+</html>
